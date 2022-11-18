@@ -9,20 +9,33 @@
 
   
 </head>
-<body>
+<body class="bg-black d-flex flex-column align-content-center justify-content-center w-100 p-5 ">
    
 
-  <header class="d-flex">
-    <h1 class="header-title">Real Estate <span id="title-app">App</span> </h1>
-    <p class="header-paragraph">Discover latest properties for sale anywhere in USA</p>
+  <header >
+    <h1 class="header-title text-white ">Real Estate <span class="text-success" id="title-app">App</span> </h1>
+    <p class="header-paragraph text-success ">Discover latest properties for sale anywhere in USA</p>
   </header>
 
-  <section class="main-container">
+  <section class="main-container m-2">
     <div class="form-container">
       <form id="form" action="#">
-        <input id="user-input" type="text" placeholder="Enter state or city">
-        
-        <button id="search" type="submit">Search</button>
+          
+         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
+         
+         
+          <p class="text-secondary fs-5 m-3 ">sort by :</p>
+          <div class="d-flex justify-content-evenly ">
+            <select class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            
+          </select>
+          <input type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
+          </div>
+        <button id="search" type="submit"   class="btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg">Search</button>
       </form>
     </div>
     

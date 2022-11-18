@@ -10934,4 +10934,33 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+/*! RESET MARGIN ,PADDDING !  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TEST BACKGROUND*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.header-title {
+  color: var(--white);
+  font-size: 5rem;
+}
+
+#title-app,
+.header-paragraph {
+  color: var(--LawnGreen);
+}
+
+.header-paragraph {
+  font-size: 2em;
 }/*# sourceMappingURL=boostrap.css.map */
