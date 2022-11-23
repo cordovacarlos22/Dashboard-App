@@ -22,15 +22,16 @@
       <form id="form" action="#">
           
          <input id="user-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
+         <input id="user-input-state" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
          
          
           <p class="text-secondary fs-5 m-3 ">sort by :</p>
           <div class="d-flex justify-content-evenly ">
-            <select class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
+            <select id="sort-by" class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
             <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="price_low"> Price low</option>
+            <option value="price_high">price high</option>
+            
             
           </select>
           <input type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
@@ -47,7 +48,7 @@
 
 
   
-
-  <script type="module"  src="./index.js"></script>
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+  <script type="module"  src="./app.js"></script>
 </body>
 </html>
