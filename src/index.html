@@ -21,20 +21,22 @@
     <div class="form-container">
       <form id="form" action="#">
           
-         <input id="user-input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
-         <input id="user-input-state" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
+         <input id="user-input-city" type="text" class="form-control m-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter City" >
+         <input id="user-input-state" type="text" class="form-control m-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter State" >
          
          
           <p class="text-secondary fs-5 m-3 ">sort by :</p>
           <div class="d-flex justify-content-evenly ">
-            <select id="sort-by" class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
+            <select class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
             <option selected>Open this select menu</option>
-            <option value="price_low"> Price low</option>
+            <option value="relevance">Relevance</option>
+            <option value="price_low">Price low</option>
             <option value="price_high">price high</option>
             
             
           </select>
-          <input type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter state or city" >
+          
+          <input  id="beds" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max beds" >
           </div>
         <button id="search" type="submit"   class="btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg">Search</button>
       </form>
