@@ -25,7 +25,11 @@
          <input id="user-input-state" type="text" class="form-control m-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter State" >
          
          
-          <p class="text-secondary fs-5 m-3 ">sort by :</p>
+          <div class="d-flex justify-content-evenly">
+            <p class="text-secondary fs-5 m-3 ">sort by :</p>
+          <p class="text-secondary fs-5 m-3 d-flex ">min beds:</p>
+          
+          </div>
           <div class="d-flex justify-content-evenly ">
             <select class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
             <option selected>Open this select menu</option>
@@ -38,13 +42,14 @@
           
           <input  id="beds" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max beds" >
           </div>
+          
         <button id="search" type="submit"   class="btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg">Search</button>
       </form>
     </div>
     
   </section>
 
-    <div class="print-container">
+    <div id="print-container" class="d-grid w-75 justify-content-center">
       
     </div>
 

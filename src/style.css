@@ -10961,4 +10961,23 @@ header {
 
 .header-paragraph {
   font-size: 2em;
+}
+
+.card {
+  width: 350px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: none;
+  align-items: center;
+}
+
+.card-thumbnail {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

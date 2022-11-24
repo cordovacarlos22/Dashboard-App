@@ -1,5 +1,5 @@
 //! modules 
-//import getListing() from "../api/api"
+
 //! GLOBAL
 const userInputUI = document.querySelector("#user-input-city"); //? input from UI to get city
 const userInputStateUI = document.querySelector("#user-input-state"); //? input from UI to get State
@@ -19,7 +19,7 @@ searchUI.addEventListener("click", async function getHomeList() {
       city: `${userInputUI.value}`,
       state_code: `${userInputStateUI.value}`,
       offset: "0",
-      limit: "10",
+      limit: "9",
       sort: "relevance",
       beds_min: `${minMaxBeds.value}`,
     },
@@ -32,10 +32,36 @@ searchUI.addEventListener("click", async function getHomeList() {
   axios
     .request(options)
     .then(function (response) {
-      console.log(response.data);
+     console.log(response.data.properties);
+    printResult(response.data.properties);
     })
     .catch(function (error) {
       console.error(error);
     });
+
+    
 });
+
+
+
+
+const printResult = (datos) => {
+  datos.forEach((data) => {
+    // console.log(data.thumbnail); //? test data to make sure I am getting to the right path
+    printContainerUI.innerHTML += `
+    <div class="card">
+      <img class="card-thumbnail " src="${data.thumbnail}" / >
+      <p class="text-primary">$${data.price} ${data.prop_type}</p>
+      <p>${data.beds} beds - ${data.baths} baths</p>
+      <span class="text-black-50">${data.address.line}, ${data.address.city}, ${data.address.postal_code}, ${data.address.state_code} </span>
+      <a href="${data.rdc_web_url}" target="_blank">Details</a>
+    </div>
+    
+    
+    `;
+    
+  });
+};
+
+
 
