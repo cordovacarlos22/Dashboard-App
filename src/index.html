@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Dashboard App</title>
+  <title>Dashboard App </title>
 
   
 </head>
@@ -25,14 +25,16 @@
          <input id="user-input-state" type="text" class="form-control m-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter State" >
          
          
-          <div class="d-flex justify-content-evenly">
+          <div class="d-flex justify-content-evenly flex-wrap">
             <p class="text-secondary fs-5 m-3 ">sort by :</p>
-          <p class="text-secondary fs-5 m-3 d-flex ">min beds:</p>
+            <p class="text-secondary fs-5 m-3 d-flex ">min beds:</p>
+            <p class="text-secondary fs-5 m-3 d-flex ">min baths:</p>
+
           
           </div>
           <div class="d-flex justify-content-evenly ">
-            <select class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
-            <option selected>Open this select menu</option>
+            <select id="#sort-by" class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
+            <option selected >Open this select menu</option>
             <option value="relevance">Relevance</option>
             <option value="price_low">Price low</option>
             <option value="price_high">price high</option>
@@ -41,9 +43,12 @@
           </select>
           
           <input  id="beds" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max beds" >
+          <input  id="baths" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max baths" >
           </div>
           
         <button id="search" type="submit"   class="btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg">Search</button>
+        <button  id="fillComplety-btn" type="button" class=" btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg btn btn-danger d-none" ><i class="fas fa-edit btnedit"></i>Fill Form Complety </button>
+                    
       </form>
     </div>
     
