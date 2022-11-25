@@ -19,11 +19,11 @@ export const printResult = (datos) => {
     <div class="card">
       <img class="card-thumbnail " src="${data.thumbnail}" / >
       <p class="text-primary">$${data.price} ${data.prop_type}</p>
-      <p>${data.beds} beds - ${data.baths} baths</p>
-      <span class="text-black-50 fs-6">${data.address.line}, ${data.address.city}, ${data.address.postal_code}, ${data.address.state_code} </span>
-      <a class="text-decoration-none" href="${data.rdc_web_url}" target="_blank">Details</a>
+      <p>${data.beds} bd | ${data.baths} ba | ${data.building_size.size} ${data.building_size.units}</p>
+      <span class="text-black-50 fs-6">${data.address.line}, ${data.address.city}, ${data.address.postal_code}, ${data.address.state_code}</span>
+      <span class="text-danger"><i class="fa-solid fa-circle"></i> ${data.prop_status}</span>
+      <a class="text-decoration-none" href="${data.rdc_web_url}" target="_blank"> Details</a>
     </div>
-    
     
     `;
       // clear input form  after an input 
@@ -63,7 +63,7 @@ export const validateInput = () =>{
 
 const wait = () => {
   let timeout;
-  timeout = setTimeout(showsearchUI, 1000);
+  timeout = setTimeout(showsearchUI, 2000);
 };
 
 export const showsearchUI = () =>{

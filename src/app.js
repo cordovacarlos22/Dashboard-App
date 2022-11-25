@@ -1,6 +1,7 @@
 //! modules 
 import { printResult} from "./functions.js";
 import {validateInput} from "./functions.js"
+
 //! GLOBAL
 const userInputUI = document.querySelector("#user-input-city"); //? input from UI to get city
 const userInputStateUI = document.querySelector("#user-input-state"); //? input from UI to get State
@@ -25,7 +26,7 @@ searchUI.addEventListener("click", async function getHomeList() {
       city: `${userInputUI.value}`,
       state_code: `${userInputStateUI.value}`,
       offset: "0",
-      limit: "9",
+      limit: "6",
       sort: "relevance",
       beds_max: `${minMaxBeds.value}`,
       baths_max: `${minMaxBaths.value}`,
