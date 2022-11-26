@@ -1,5 +1,5 @@
 //! modules 
-import axios from "axios";
+import axios from "/axios";
 import { printResult} from "./functions.js";
 import {validateInput} from "./functions.js";
 import {inputInvalid}  from "./functions.js";
