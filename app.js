@@ -1,4 +1,5 @@
 //! modules 
+import axios from "axios";
 import { printResult} from "./functions.js";
 import {validateInput} from "./functions.js";
 import {inputInvalid}  from "./functions.js";
@@ -38,7 +39,7 @@ searchUI.addEventListener("click", async function getHomeList() {
     },
   };
 
- axios 
+    axios
     .request(options)
     .then(function (response) {
      console.log(response.data.properties);
