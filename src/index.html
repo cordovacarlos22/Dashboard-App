@@ -23,25 +23,21 @@
          <input id="user-input-state" type="text" class="form-control m-2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Enter State" >
          
          
-          <div class="d-flex justify-content-evenly flex-wrap">
+         
+          <div>
             <p class="text-secondary fs-5 m-3 ">sort by :</p>
-            <p class="text-secondary fs-5 m-3 d-flex ">min beds:</p>
-            <p class="text-secondary fs-5 m-3 d-flex ">min baths:</p>
-
-          
-          </div>
-          <div class="d-flex justify-content-evenly ">
-            <select id="#sort-by" class="form-select form-select-sm w-25 d-flex " aria-label=".form-select-sm example">
-            <option selected >Open this select menu</option>
-            <option value="relevance">Relevance</option>
+            <select id="#sort-by" class="form-select form-select-sm w-100  " aria-label=".form-select-sm example">
+           
+            <option selected value="relevance">Relevance</option>
             <option value="price_low">Price low</option>
             <option value="price_high">price high</option>
             
             
           </select>
-          
-          <input  id="beds" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max beds" >
-          <input  id="baths" type="text" class="form-control w-25" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max baths" >
+          <p class="text-secondary fs-5 m-3 d-flex ">min beds:</p>
+          <input  id="beds" type="text" class="form-control w-100" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max beds" >
+           <p class="text-secondary fs-5 m-3 d-flex ">min baths:</p>
+          <input  id="baths" type="text" class="form-control w-100" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="min-max baths" >
           </div>
           
         <button id="search" type="submit"   class="btn btn-success  mt-5 p-2 w-100 justify-content-center btn-lg">Search</button>
