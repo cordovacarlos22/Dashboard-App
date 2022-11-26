@@ -1,6 +1,7 @@
 //! modules 
 import { printResult} from "./functions.js";
-import {validateInput} from "./functions.js"
+import {validateInput} from "./functions.js";
+import {inputInvalid}  from "./functions.js";
 
 //! GLOBAL
 const userInputUI = document.querySelector("#user-input-city"); //? input from UI to get city
@@ -45,6 +46,8 @@ searchUI.addEventListener("click", async function getHomeList() {
     })
     .catch(function (error) {
       console.error(error);
+     inputInvalid();
+   
     });
 
     
