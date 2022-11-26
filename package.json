@@ -2,10 +2,11 @@
   "name": "real-estate-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/app.js",
   "type": "module",
   "scripts": {
-    "test": "run dev"
+    "test": "run dev",
+    "start": "run dev"
   },
   "repository": {
     "type": "git",
