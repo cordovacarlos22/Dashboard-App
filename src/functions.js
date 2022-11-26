@@ -74,3 +74,9 @@ export const showsearchUI = () =>{
    
 
 }
+
+export const inputInvalid = () =>{
+  alert('invalid input');
+   
+}
+
