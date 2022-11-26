@@ -16,9 +16,9 @@ export const printResult = (datos) => {
   datos.forEach((data) => {
     // console.log(data.thumbnail); //? test data to make sure I am getting to the right path
     printContainerUI.innerHTML += `
-    <div class="card">
-      <img class="card-thumbnail " src="${data.thumbnail}" / >
-      <p class="text-primary">$${data.price} ${data.prop_type}</p>
+    <div class="card  d-flex bg-light align-items-center m-4 p-2 ">
+      <img class="card-thumbnail w-100" src="${data.thumbnail}" / >
+      <p class="text-primary ">$${data.price} ${data.prop_type}</p>
       <p>${data.beds} bd | ${data.baths} ba | ${data.building_size.size} ${data.building_size.units}</p>
       <span class="text-black-50 fs-6">${data.address.line}, ${data.address.city}, ${data.address.postal_code}, ${data.address.state_code}</span>
       <span class="text-danger"><i class="fa-solid fa-circle"></i> ${data.prop_status}</span>

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "src",
+			"path": "../../../Downloads/Dashboard-App-main/src"
+		},
+		{
+			"name": "Dashboard-App",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dashboard-App"
+	}
+}
