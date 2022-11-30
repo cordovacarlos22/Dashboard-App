@@ -42,12 +42,12 @@ searchUI.addEventListener("click", async function getHomeList() {
     axios
     .request(options)
     .then(function (response) {
-     console.log(response.data.properties);
+    //  console.log(response.data.properties);
     printResult(response.data.properties);
     })
     .catch(function (error) {
       console.error(error);
-     inputInvalid();
+    //  inputInvalid();
    
     });
 
