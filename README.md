@@ -9,6 +9,25 @@ mainly this project was inspired by me, you could find proties for sale any wher
 
 ![App Screenshot](https://i.postimg.cc/GhpXP3yQ/Screenshot-2022-11-30-at-6-16-07-AM.png)
 
+
+## EXAMPLE Reference
+
+#### List of states & cities you could  use to test App
+
+
+| Cities  | STATE   |
+| :-------| :----   |
+| Ontario |  CA     |
+| Eastvale |  CA    |
+| Los angeles |  CA | 
+| Phoenix |  AZ    |
+| Little Rock |  AR     |
+| Houston |  TX     |
+| Denver |  CO    |
+| Atlanta |  GA     |
+| Boston|  MA    |
+
+
 ## Authors
 
 - [@cordovacarlos22](https://www.github.com/cordovacarlos22)
