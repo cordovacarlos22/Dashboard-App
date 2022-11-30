@@ -12,7 +12,7 @@ mainly this project was inspired by me, you could find proties for sale any wher
 
 ## EXAMPLE Reference
 
-#### List of states & cities you could  use to test App
+#### List of cities & state abbreviations  you could  use to test App
 
 
 | Cities  | STATE   |
