@@ -18,6 +18,7 @@ mainly this project was inspired by me, you could find proties for sale any wher
 | Cities  | STATE   |
 | :-------| :----   |
 | Ontario |  CA     |
+| LAS VEGAS |  NV     |
 | Eastvale |  CA    |
 | Los angeles |  CA | 
 | Phoenix |  AZ    |
@@ -26,6 +27,7 @@ mainly this project was inspired by me, you could find proties for sale any wher
 | Denver |  CO    |
 | Atlanta |  GA     |
 | Boston|  MA    |
+| New York|  NY    |
 
 
 ## Authors
