@@ -47,7 +47,7 @@ searchUI.addEventListener("click", async function getHomeList() {
     })
     .catch(function (error) {
       console.error(error);
-     
+     inputInvalid();
    
     });
 
