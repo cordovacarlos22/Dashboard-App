@@ -10,6 +10,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Dashboard-App"
+		"liveServer.settings.multiRootWorkspaceName": "Dashboard-App",
+		"liveServer.settings.port": 5501
 	}
 }
