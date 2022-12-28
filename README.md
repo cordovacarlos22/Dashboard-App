@@ -38,5 +38,5 @@ mainly this project was inspired by me, you could find proties for sale any wher
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS,BOOSTRAP,AXIOS,API
+Javascript, HTML, CSS,BOOSTRAP,AXIOS,API,CHARTJS
 
