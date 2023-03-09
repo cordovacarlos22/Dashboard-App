@@ -1,8 +1,7 @@
 
 Real Estate app
 
-This is a project to put in practice how to consume api, in this project I  put in practice HTML,CSS,JS,Axios   also Bootstrap was use for a faster way to web responsibe. 
-mainly this project was inspired by me, you could find proties for sale any where in the USA just by filling up a form  just input citie and state, min bedroom  size and  min bathroom size and click search button. 
+This is a project to put in practice how to consume  rest API, in this project I put in practice HTML,CSS,JS,Axios also Bootstrap was use for a faster way to web responsibe. mainly this project was inspired by me, you could find properties for sale any where in the USA just by filling up a form just input cities and state, min bedroom size and min bathroom size and click search button.
 
 
 ## Screenshots
